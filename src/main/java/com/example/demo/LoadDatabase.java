@@ -21,5 +21,6 @@ class LoadDatabase {
             log.info("Preloading " + repository.save(new MusicItem("Stairway to Heaven", "Led Zeppelin", "Heavy Metal")));
         };
     }
+    
 }
 
